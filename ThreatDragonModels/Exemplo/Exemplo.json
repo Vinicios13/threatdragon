@@ -4,7 +4,11 @@
     "owner": "Vinicios"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "matheusdafonseca"
+      }
+    ],
     "diagrams": [
       {
         "title": "Exemplo 1",
