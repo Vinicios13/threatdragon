@@ -179,7 +179,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "Sobrecarga do serviço.",
-                  "mitigation": "Boa configurações do Firewall.\nConfigurar timeout.\nServidor atualizado constantemente.\nCredencias de acesso ao serviço mantidas em local seguro.\nAutentificação no servidor."
+                  "mitigation": "Boa configurações do Firewall e do servidor.\nConfigurar timeout.\nServidor atualizado constantemente.\nCredencias de acesso ao serviço mantidas em local seguro.\nAutentificação no servidor."
                 },
                 {
                   "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
@@ -255,6 +255,8 @@
                   "mitigation": "Configurar timeout.\nBoa configurações do Firewall.\nServidor atualizado constantemente.\nCredencias de acesso ao serviço mantidas em local seguro.\nAutentificação no servidor."
                 }
               ],
+              "isALog": false,
+              "storesCredentials": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
