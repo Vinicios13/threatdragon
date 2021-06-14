@@ -179,7 +179,7 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "Sobrecarga do serviço.",
-                  "mitigation": "Boa configurações do Firewall.\nServidor atualizado constantemente.\nCredencias de acesso ao serviço mantidas em local seguro.\nAutentificação no servidor."
+                  "mitigation": "Boa configurações do Firewall.\nConfigurar timeout.\nServidor atualizado constantemente.\nCredencias de acesso ao serviço mantidas em local seguro.\nAutentificação no servidor."
                 },
                 {
                   "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
@@ -210,7 +210,7 @@
                 "height": 80
               },
               "position": {
-                "x": 472,
+                "x": 473,
                 "y": 431
               },
               "angle": 0,
@@ -220,35 +220,39 @@
               "threats": [
                 {
                   "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
+                  "title": "Manipulação indevida do banco de dados",
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
+                  "description": "Manipulação indevida do banco de dados por um agente externo",
+                  "mitigation": "Boa configurações do Firewall.\nServidor atualizado constantemente.\nCredencias de acesso ao serviço mantidas em local seguro.\nAutentificação no servidor.\nUsuários específicos para ler e modificar o banco."
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
+                  "title": "Devs negam autoria de alguma modificação do banco.",
                   "type": "Repudiation",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic repudiation threat"
+                  "description": "Devs negam autoria de alguma modificação do banco.",
+                  "mitigation": "Gerar logs de todas as ações realizadas no banco."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic informtion disclosure threat",
+                  "title": "Acesso ilegal as informações do banco",
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic information disclosure threat"
+                  "description": "Acesso ilegal as informações do banco",
+                  "mitigation": "boa configurações do Firewall.\nServidor atualizado constantemente.\nCredencias de acesso mantidas em local seguro.\nAutentificação no servidor.\nEncriptação dos dados sensíveis."
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
-                  "title": "Generic DoS threat",
+                  "title": "Banco de dados sobrecarregado",
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "Banco de dados sobrecarregado",
+                  "mitigation": "Configurar timeout.\nBoa configurações do Firewall.\nServidor atualizado constantemente.\nCredencias de acesso ao serviço mantidas em local seguro.\nAutentificação no servidor."
                 }
               ],
               "attrs": {
