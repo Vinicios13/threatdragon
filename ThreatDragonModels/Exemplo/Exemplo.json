@@ -23,8 +23,8 @@
                 "height": 80
               },
               "position": {
-                "x": 115,
-                "y": 68
+                "x": 69,
+                "y": 136
               },
               "angle": 0,
               "id": "9e1160a4-3b2a-4022-bb42-9e4e5c113558",
@@ -35,7 +35,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 0"
+                  "text": "Cidadão"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -49,8 +49,8 @@
                 "height": 100
               },
               "position": {
-                "x": 567,
-                "y": 70
+                "x": 606,
+                "y": 1
               },
               "angle": 0,
               "id": "0e4113e6-f536-4e6c-883d-350b40e32aba",
@@ -75,8 +75,8 @@
                 "height": 100
               },
               "position": {
-                "x": 328,
-                "y": 313
+                "x": 389,
+                "y": 1
               },
               "angle": 0,
               "id": "34d456b7-1884-4086-97e5-a95400d3b6d1",
