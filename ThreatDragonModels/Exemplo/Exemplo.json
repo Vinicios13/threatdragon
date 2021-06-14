@@ -29,36 +29,19 @@
               "angle": 0,
               "id": "9e1160a4-3b2a-4022-bb42-9e4e5c113558",
               "z": 1,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
-                  "title": "Generic spoofing threat",
-                  "type": "Spoofing",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic spoofing threat"
-                },
-                {
-                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
-                  "type": "Repudiation",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic repudiation threat"
-                }
-              ],
+              "hasOpenThreats": false,
+              "threats": [],
               "outOfScope": false,
               "reasonOutOfScope": "É um cidadão de bem",
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Cidadão de bem"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -332,11 +315,12 @@
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
-                  "title": "Generic DoS threat",
+                  "title": "Desvio da requisição",
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "Desvio da requisição contendo os dados do pedido de reforma",
+                  "mitigation": "Utilização de redes seguras.\nManter Navegadores e Sistemas operacionais sempre atualizados.\nNão entrar em sites não confiáveis."
                 }
               ],
               "attrs": {
