@@ -128,7 +128,7 @@
                 "height": 100
               },
               "position": {
-                "x": 513,
+                "x": 514,
                 "y": 217
               },
               "angle": 0,
@@ -1104,27 +1104,30 @@
               "threats": [
                 {
                   "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
+                  "title": "Alterar conteúdo da requisição",
                   "type": "Tampering",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic tampering threat"
+                  "description": "Alterar conteúdo da requisição na hora do envio.",
+                  "mitigation": "Encriptação dos dados enviados."
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic informtion disclosure threat",
+                  "title": "Visualizar conteúdo do requisição",
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic information disclosure threat"
+                  "description": "Visualizar conteúdo do requisição do pedido de reforma",
+                  "mitigation": "Encriptação"
                 },
                 {
                   "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
-                  "title": "Generic DoS threat",
+                  "title": "Desvio da requisição",
                   "type": "Denial of service",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic DoS threat"
+                  "description": "Desvio da requisição.",
+                  "mitigation": "Ter um provedor de internet confiável."
                 }
               ],
               "attrs": {
